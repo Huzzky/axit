@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navtag {
+    background-color: black;
+}
+
+
+ul.mainNav {
+    list-style-type: none;
+    margin-right: 150px;
+}
+
+ul.mainNav li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+    text-align: center;
+    padding-right: 50px;
+}
+
+li.Logo a{
+    text-decoration: none;
+    margin-left: 150px;
+    font-size: 40px;
+    color: white;
+    
+}
+
+li.liRight a{
+    text-decoration: none;
+    color: #b0b0b0;
+}
+li.liRight a:hover {
+    color: gray;
+}
+
+.IT {
+    color: #ff8b38;
+}
+
+.liRight{
+    float: right;
+    padding-top: 17px;
+    
+}
+
+li.Logo a:hover{
+    color: gainsboro;
+}

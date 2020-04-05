@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul.Icon li {
+    display: inline-block;
+    list-style-type: none;
+
+}
+
+
+ul.Icon img {
+    width: 32px;
+    height: 32px;
+
+} 
+
+
+.FooterDiv {
+    background-color: black;
+}
+
+.FooterDiv ul{
+    list-style: none;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 15px;
+}
+
+.fio {
+    color: gray;
+    font-size: 13px;
+    padding-bottom: 15px;
+}
+
+.FooterDiv .fio {
+    text-align: center;
+}
