@@ -5,6 +5,7 @@
 
 .navtag {
     background-color: black;
+    margin-bottom: -20px;
 }
 
 
@@ -39,6 +40,7 @@ li.liRight a:hover {
 
 .IT {
     color: #ff8b38;
+    font-weight: 100;
 }
 
 .liRight{
