@@ -1,7 +1,7 @@
 import React from 'react';
 import "./css/main.css";
-// import ReactDOM from 'react-dom';
 import FM from './first-main';
+import SMD from './social-media-div';
 
 
 
@@ -11,7 +11,7 @@ class Main extends React.Component {
         return (
             <div className="All-Main">
                 <FM/>
-                <div></div>
+                <SMD/>
                 <div></div>
                 <div></div>
                 <div></div>
