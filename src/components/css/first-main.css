@@ -10,7 +10,7 @@
     background-repeat: no-repeat;
     padding-left: 150px;
     padding-right: 150px;
-    padding-bottom: 140px;
+    padding-bottom: 150px;
     padding-top: 110px;
     display: inline-block; 
 }
@@ -129,10 +129,6 @@
     margin-bottom: 60px;
     margin-top: 10px;
 }
-
-/* .text-form-card :first-child{
-    margin-top: 10px;
-} */
 
 .text-free-card {
     color: orange;

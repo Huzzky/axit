@@ -2,16 +2,9 @@ import React from 'react';
 // import ReactDOM from "react-dom";
 import "./css/first-main.css";
 
-
-function activeText(e) {       // Для изменения текста при нажатии на Name
-    e.preventDefault();
-    console.log("Работает");
-}
-
-
-
-
 class FM extends React.Component {
+   
+
     render () {
         return (
             <div>
@@ -33,10 +26,10 @@ class FM extends React.Component {
                                     <form action="" className="form-card-main" method="post">
                                         <label className="text-card"><b>Try Your <span className="text-free-card">FREE</span> Trial Today</b></label><br/>
 
-                                        <input type="text" name="name" value="Name" className="text-form-card text-name-card"
-                                        required onClick={activeText}/><br/>
-                                        <input type="email" name="email" className="text-form-card" required/><br/>
-                                        <input type="password" name="password" className="text-form-card text-password-card" required/><br/>
+                                        <input type="text" name="name" placeholder="Name" className="text-form-card text-name-card"
+                                        required onClick={this.activeText}/><br/>
+                                        <input type="email" placeholder="Email" name="email" className="text-form-card" required/><br/>
+                                        <input type="password" name="password" placeholder="Password" className="text-form-card text-password-card" required/><br/>
                                         <button className="button-card"><span className="text-button-card">Get started</span></button>
                                     </form>
                                 </div>
