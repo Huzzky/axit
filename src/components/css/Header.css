@@ -6,12 +6,14 @@
 .navtag {
     background-color: black;
     margin-bottom: -20px;
+    padding-bottom: 15px;
 }
 
 
 ul.mainNav {
     list-style-type: none;
-    margin-right: 150px;
+    padding-right: 150px;
+    padding-left: 150px;
 }
 
 ul.mainNav li{
@@ -24,9 +26,9 @@ ul.mainNav li{
 
 li.Logo a{
     text-decoration: none;
-    margin-left: 150px;
-    font-size: 40px;
+    font-size: 45px;
     color: white;
+    padding-right: 5px;
     
 }
 
@@ -46,7 +48,8 @@ li.liRight a:hover {
 .liRight{
     float: right;
     padding-top: 17px;
-    
+    font-size: 19px;
+    margin-right:1px;
 }
 
 li.Logo a:hover{

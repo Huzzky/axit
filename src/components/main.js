@@ -22,9 +22,10 @@ class Main extends React.Component {
                                 <div className="form-card">
                                     <form action="" className="form-card-main" method="post">
                                         <label className="text-card"><b>Try Your <span className="text-free-card">FREE</span> Trial Today</b></label><br/>
-                                        <input type="text" name="name" value="Name" className="text-form-card"/><br/>
-                                        <input type="email" name="email" className="text-form-card"/><br/>
-                                        <input type="password" name="password" className="text-form-card"/><br/>
+                                        <input type="text" name="name" value="Name" className="text-form-card text-name-card"
+                                        required/><br/>
+                                        <input type="email" name="email" className="text-form-card" required/><br/>
+                                        <input type="password" name="password" className="text-form-card text-email-card" required/><br/>
                                         <button className="button-card"><span className="text-button-card">Get started</span></button>
                                     </form>
                                 </div>

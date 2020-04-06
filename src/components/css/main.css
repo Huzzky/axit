@@ -5,7 +5,6 @@
 .first-Main {
     background-image: url(../image/image-for-first-main.jpg);
     width: 100%;
-    height: 100%;
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -13,12 +12,12 @@
     padding-right: 150px;
     padding-bottom: 140px;
     padding-top: 85px;
-    /* display: flex; */
+    display: inline-block; 
 }
 
 .left-div-first-main {
     width: 50%;
-    display: inline-block;
+    float: left;
 }
 
 .hr-first {
@@ -67,36 +66,62 @@
 
 .card-main {
     width: 50%;
-    display: inline-block;
+    padding-top: 25px;    
+    float: right;
+    padding-left: 215px;
 }
 
 .form-card-main {
     background-color: white;
-    width: 360px;
-    height: 306px;
+    width: 450px;
+    height: 350px;
     border-radius: 5px 5px 0px 0px;
+
 }
 
 .text-card {
     background-color: #f5f5f5;
-    border-radius: 5px 5px 0px 0px;
+    border-radius: 3px 3px 0px 0px;
     width: 100%;
     text-align: center;
-    padding-top: 7px;
-    padding-bottom: 7px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     font-size: 21px;
 }
 .button-card {
     height: 54px;
     width: 100%;
+    border-radius: 0px 0px 3px 3px;
+    border: 2px solid rgb(255, 166, 0);
+    color: white;
+    background-color: #ff9b51;
 }
 
 .text-form-card {
-    width: 85%;
-    margin-left: 25px;
+    width: 80%;
+    margin-left: 45px;
+    margin-bottom: 50px;
+    border-top: 0px solid white;
+    border-bottom: 1px solid #d6d6d6;
+    border-right: 1x solid #fbfbfb;
+    border-left: 2px solid #fbfbfb;
+    color: #c1c1c1;
+    font-size: 26px;
+    vertical-align: middle;
+    padding-left: 13px;
+}
+.text-name-card {
     margin-top: 30px;
 }
+.text-email-card {
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
 
-.text-form-card :last-child {
-    margin-top: 50px;
+/* .text-form-card :first-child{
+    margin-top: 10px;
+} */
+
+.text-free-card {
+    color: orange;
 }
