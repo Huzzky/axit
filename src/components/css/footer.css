@@ -6,7 +6,8 @@
 ul.Icon li {
     display: inline-block;
     list-style-type: none;
-
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
 
@@ -19,6 +20,7 @@ ul.Icon img {
 
 .FooterDiv {
     background-color: black;
+    padding-bottom: 1px;
 }
 
 .FooterDiv ul{
@@ -26,12 +28,12 @@ ul.Icon img {
     text-align: center;
     padding-top: 20px;
     margin-bottom: 15px;
+    
 }
 
 .fio {
     color: gray;
-    font-size: 13px;
-    padding-bottom: 15px;
+    font-size: 14px;
 }
 
 .FooterDiv .fio {
