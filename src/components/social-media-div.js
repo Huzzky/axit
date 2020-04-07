@@ -13,7 +13,7 @@ class SMD extends React.Component {
                 <div className="smd-gran-left">
                     <h2 className="s-m">Social Media</h2>
                     <p className="desc-smd">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sollicitudin commodo tellus, 
-                    ut ultricies enim venenatis quis. Etiam fermentum est quis metus gravida, eu dapibus.</p> 
+                    ut ultricies enim venenatis quis.</p> 
                 </div>
                 <div className="smd-gran-right">
                     <ul className="Icon-smd">
