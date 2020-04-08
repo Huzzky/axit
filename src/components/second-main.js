@@ -6,6 +6,7 @@ class SM2 extends React.Component {
     constructor() {
         super()
         this.state = {
+            h1Tab: "Tabs with soft transitioning effect."
             descTab: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod sagittis posuere." +
             "Integer volutpat non nunc eget aliquet."+
             "Praesent at eros leo. Etiam pellentesque commodo."

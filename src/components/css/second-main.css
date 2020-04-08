@@ -1,6 +1,9 @@
 
 .Tabs {
-    background-color: gray;
+    background-color: #d6d6d6;
+    -webkit-box-shadow: inset -1px 55px 49px -63px rgba(0,0,0,0.45);
+    -moz-box-shadow: inset -1px 55px 49px -63px rgba(0,0,0,0.45);
+    box-shadow: inset -1px 55px 49px -63px rgba(0,0,0,0.45);
 }
 
 
