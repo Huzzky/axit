@@ -2,6 +2,7 @@ import React from 'react';
 import "./css/main.css";
 import FM from './first-main';
 import SMD from './social-media-div';
+import SM2 from './second-main';
 
 
 
@@ -12,7 +13,7 @@ class Main extends React.Component {
             <div className="All-Main">
                 <FM/>
                 <SMD/>
-                <div></div>
+                <SM2/>
                 <div></div>
                 <div></div>
                 <div></div>

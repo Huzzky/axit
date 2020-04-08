@@ -1,0 +1,26 @@
+
+
+.tabs-padding {
+    padding: 150px;
+    display: inline-block;
+}
+
+
+
+.bttn {
+    background-color: #4CAF50; 
+    border: 1px solid green; 
+    color: white; 
+    padding: 10px 24px; 
+    display: block;
+    margin-top: 10px;
+}
+
+.bttn:first-child {
+    margin-top: -10px;
+}
+
+.desc-tab {
+    width: 40%;
+    float: right;
+}

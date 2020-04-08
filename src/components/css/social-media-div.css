@@ -8,8 +8,8 @@
 }
 
 .smd-marg {
-    margin-left: 150px;
-    margin-right: 150px;
+    padding-left: 150px;
+    padding-right: 150px;
     display: inline-block;
     width: 100%;
     padding-top: 11px;
