@@ -16,25 +16,22 @@ class SM2 extends React.Component {
     }
 
         tab1() {
-            console.log("Проверка 1");
+            // console.log("Проверка 1");
             this.setState({descTab: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi euismod sagittis posuere." +
             "Integer volutpat non nunc eget aliquet."+
             "Praesent at eros leo. Etiam pellentesque commodo."});
         }
         tab2() {
-            console.log("Проверка 2");
+            // console.log("Проверка 2");
             this.setState({
-                descTab: "Возможно, вы помните о том, что мы говорили о специальном методе, используемом для модификации состояния," +
-                "доступном в компонентах," +
-                "основанных на классах благодаря тому, что они расширяют класс React.Component."
+                descTab:"Вторая кнопка" //Изменить описание
             });
         }
         tab3() {
-            console.log("Проверка 3");
+            // console.log("Проверка 3");
             this.setState({
-                descTab: "Нужно сразу сказать, что так с состоянием компонентов в React не работают. "+
-                "Попытка выполнения подобного кода вызовет ошибку."
-            });
+                descTab:"Текст номер 3 для Таба номер 3." //Изменить описание
+            })
         }
 
     render () {
