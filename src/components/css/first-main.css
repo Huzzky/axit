@@ -5,8 +5,8 @@
 .first-Main {
     background-image: url(../image/image-for-first-main.jpg);
     width: 100%;
+    height: auto;
     background-size: 100%;
-    background-position: center;
     background-repeat: no-repeat;
     padding-left: 150px;
     padding-right: 150px;
@@ -135,4 +135,18 @@
 
 .text-free-card {
     color: orange;
+}
+
+
+@media screen and (max-width: 480px) {
+    .first-Main {
+        background-image: url(../image/image-for-first-main.jpg);
+        height: auto;
+        width: 100%;
+        background-repeat: no-repeat;
+        display: block; 
+        -webkit-box-shadow: inset 0px -49px 35px -44px rgba(0,0,0,0.45);
+        -moz-box-shadow: inset 0px -49px 35px -44px rgba(0,0,0,0.45);
+        box-shadow: inset 0px -49px 35px -44px rgba(0,0,0,0.45);
+    }
 }

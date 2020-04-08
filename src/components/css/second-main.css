@@ -1,8 +1,13 @@
 
+.Tabs {
+    background-color: gray;
+}
+
 
 .tabs-padding {
     padding: 150px;
     display: inline-block;
+
 }
 
 
